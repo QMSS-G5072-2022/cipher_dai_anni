@@ -1,0 +1,49 @@
+:py:mod:`cipher_ad4056.cipher_ad4056`
+=====================================
+
+.. py:module:: cipher_ad4056.cipher_ad4056
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_ad4056.cipher_ad4056.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   Encrypt or decrypt of text.
+
+   :param text: A string that will be encrypted or decrypted.
+   :type text: str
+   :param shift: An integer that specified the shift.
+   :type shift: int
+   :param encrypt: A boolean that indicate encrypt i.e. encrypt = True and decrypt = False.
+   :type encrypt: bool
+
+   :returns: The new string that has been encrypted or decrypted.
+   :rtype: str
+
+   .. rubric:: Examples
+
+   >>> from cipher_ad4056 import cipher
+   >>> text = "hello"
+   >>> shift = 3
+   >>> encrypt = True
+   >>> cipher_ad4056.cipher("hello", 3, encrypt=True)
+       "khoor"
+   >>> from cipher_ad4056 import cipher
+   >>> text = "hello"
+   >>> shift = 3
+   >>> encrypt = False
+   >>> cipher_ad4056.cipher("hello", 3, encrypt=True)
+       "ebiil"
+
+

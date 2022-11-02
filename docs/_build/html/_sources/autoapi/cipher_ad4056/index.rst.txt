@@ -1,0 +1,23 @@
+:py:mod:`cipher_ad4056`
+=======================
+
+.. py:module:: cipher_ad4056
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   cipher_ad4056/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+
