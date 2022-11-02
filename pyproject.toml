@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cipher_ad4056"
-version = "0.1.0"
+version = "0.1.1"
 description = "cipher testesting for hw07"
 authors = ["Anni Dai"]
 license = "MIT"
@@ -16,6 +16,7 @@ myst-nb = "^0.17.1"
 sphinx-autoapi = "^2.0.0"
 sphinx-rtd-theme = "^1.1.0"
 pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

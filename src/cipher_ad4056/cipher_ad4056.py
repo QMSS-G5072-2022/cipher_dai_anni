@@ -18,17 +18,17 @@ def cipher(text, shift, encrypt=True):
 
         Examples
         --------
-        >>> from cipher_ad4056 import cipher
+        >>> from cipher_ad4056 import cipher_ad4056
         >>> text = "hello"
         >>> shift = 3
         >>> encrypt = True
-        >>> cipher_ad4056.cipher("hello", 3, encrypt=True)
+        >>> cipher_ad4056.cipher(text, shift, encrypt)
             "khoor"
-        >>> from cipher_ad4056 import cipher
+        >>> from cipher_ad4056 import cipher_ad4056
         >>> text = "hello"
         >>> shift = 3
         >>> encrypt = False
-        >>> cipher_ad4056.cipher("hello", 3, encrypt=True)
+        >>> cipher_ad4056.cipher(text, shift, encrypt)
             "ebiil"
         """
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
